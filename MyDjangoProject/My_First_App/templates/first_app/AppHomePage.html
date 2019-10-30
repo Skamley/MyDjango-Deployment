@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "first_app/base.html" %}
+{% block body_block %}
+<h1>Welcome to the Home Page</h1>
+<h4> {{ Line1|upper }}</h4>
+<p>{{ Line2|cut:'short'}}</p>
+{% endblock %}
